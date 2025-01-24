@@ -9,7 +9,7 @@ searcher.key = ENV.fetch('GOOGLE_API_KEY')
 
 user_profile = {
   name: 'たけし',
-  interests: %w[奈良 学生],
+  interests: %w[東京 学生],
   preferred_domains: ['yamatoji.nara-kankou.or.jp', 'ritsumei.ac.jp']
 }
 
