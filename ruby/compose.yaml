@@ -1,0 +1,16 @@
+services:
+  ruby:
+    build:
+      context: .
+      dockerfile: ../docker/ruby/Dockerfile
+    container_name: ruby
+    command: /bin/sh
+    volumes:
+      - type: bind
+        source: .
+        target: /sample-google-custom-search-api
+    environment:
+      GOOGLE_API_KEY: ""
+      CUSTOM_SEARCH_ENGINE_ID: ""
+    tty: true
+    stdin_open: true
