@@ -1,0 +1,3 @@
+data/*/*
+!data/response/.gitkeep
+!data/results/.gitkeep
